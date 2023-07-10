@@ -1,0 +1,288 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(230, 224, 224);
+}
+
+.one {
+   
+    min-height: 100vh;
+    width: 90%;
+    margin: 80px;
+    background-image: url('vpn-image4.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    float: left;
+    font-size: 25px;
+    color: rgb(6, 6, 85);
+    padding-left: 100px;
+    padding-top: 20px;
+} 
+.lan {
+    float: right;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.lan select {
+    border: none;
+    background-color: aliceblue;
+    color: rgb(6, 6, 85);
+    font-size: 20px;
+}
+.main-part h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+     color: rgb(4, 34, 0);
+}
+.main-part p{
+    text-align: center;
+    font-size: 25px;
+     color: rgb(2, 26, 0);
+    font-weight: bold;
+
+}
+.btn-one {
+    margin-top: 90px;
+    margin-left:45%;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size:25px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.btn-one a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-one:hover {
+    padding: 12px;
+    font-size: 27px;
+}
+.section-last p {
+    margin-left:45%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+@media  (max-width: 900px) {
+     .one {
+        height: 130vh;
+        margin-bottom: -40px;
+     }
+    .main-part p{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+    .main-part h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .section-last {
+        margin-left: -30px;
+    }
+}
+
+
+
+.first {
+    padding-top: 20px;
+    height: 400px;
+    width: 80%;
+    margin-left: 7%;
+}
+.left-img {
+    float: left;
+    height: 80%;
+    width: 35%;
+    margin:40px;
+    border-radius: 10px;
+}
+
+
+.first .detail-1 {
+    float: right;
+    margin-left: -30px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.second {
+    height: 300px;
+    width: 80%;
+    margin: 7%;
+    
+}
+
+ .detail-2 {
+    float: left;
+    width: 40%;
+}
+
+.detail-2 h1 {
+    font-size: 30px;
+    
+}
+.detail-2 p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.img-acc2 {
+    float: right;
+    height: 75%;
+    margin:40px;
+    border-radius: 10px;
+}
+
+
+
+.third {
+    height: 400px;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+.img-right {
+    float: left;
+    height: 80%;
+    margin-right: 10px;
+}
+
+.detail-last {
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.detail-last ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.detail-last ul li {
+    padding-left: 20px;
+    height: 10px;
+    padding-bottom: 20px;
+}
+
+.third button {
+   margin-bottom: -20px;
+}
+@media screen and (max-width:900px) {
+    .two {
+        margin-top: -400px;
+    }
+    .second {
+        margin-top: 400px;
+
+    }
+    .two {
+       height: 260vh;  
+    }
+}
+
+hr {
+    margin: 10px;
+    padding: 2px;
+}
+.three {
+    width: 100%;
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+     
+}
+.left-part {
+    width: 25%;
+    margin-left:5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+}
+.left-part img {
+    border-radius: 40px;
+}
+.mid-part {
+    width: 25%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-part img {
+    border-radius: 40px;
+}
+.mid-part a {
+    margin-top: 30px;
+}
+.right-part {
+    width: 25%;
+    margin-right:5%;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-part img {
+    border-radius: 20px;
+}
+.four {
+    margin-top:50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+.left-side h1 {
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.left-side img {
+    border-radius: 20px;
+    width: 100%;
+    margin-left: 25px;
+    padding-bottom: 30px;
+}
+
+.left-side a {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 330px;
+}
+.right-side p {
+    padding-bottom: 40px;
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+.right-side p span {
+    font-size: 40px;
+    font-weight: bold;
+}
